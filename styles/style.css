@@ -17,6 +17,7 @@ body{
 }
 .ul-headerlist{
     display: flex;
+    justify-content: flex-end;
 }
 li{
     list-style: none;
@@ -27,4 +28,8 @@ li{
     color: #000;
     text-align: center;
     padding: 12px;
+    transition-duration: 1s
+}
+.ul-headerlist li a:hover{
+    background-color: #ddd;
 }
