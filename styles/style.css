@@ -6,7 +6,25 @@ body{
     padding:0;
     background-color:#f3f3f3;
 }
-.header > img{
+.header img{
     width: 180px;
     margin: 20px;
+}
+.container-header{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.ul-headerlist{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.ul-headerlist li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 12px;
 }
