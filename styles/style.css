@@ -6,9 +6,15 @@ body{
     padding:0;
     background-color:#f3f3f3;
 }
+.header{
+    background-color: slategray;
+}
+.header{
+    height: 75px;
+}
 .header img{
     width: 180px;
-    margin: 20px;
+    margin: 15px;
 }
 .container-header{
     display: grid;
@@ -27,9 +33,36 @@ li{
     text-decoration: none;
     color: #000;
     text-align: center;
-    padding: 12px;
+    padding: 10px 20px;
     transition-duration: 1s
 }
 .ul-headerlist li a:hover{
-    background-color: #ddd;
+    background-color: #5f5c5c;
+}
+.ul-headerlist li{
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    left: -39px;  
+    z-index: 1;
+}
+.submenu li{
+    background-color:#fff;
+    display: none;
+    width: 100%;  
+    border-bottom: 1px solid #000;
+}
+.submenu a{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.submenu li:last-child{
+    border-bottom: none;
+}
+.item-nav li:hover >.submenu li{
+    display: inline-block;
 }
