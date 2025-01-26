@@ -72,7 +72,6 @@ li{
     position: relative;
     background-color: #000;
 }
-
 #header-top::before {
     content: '';
     position: absolute;
@@ -96,4 +95,26 @@ li{
     z-index: 1; 
     color: #fff; 
     padding: 2rem;
+}
+.category{
+    background-color: #FFB300;
+    display: block;
+    width: 70px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 20px;
+}
+.btn-head{
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+    color:#fff;
+    background-color: #E90000;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    transition-duration: 0.8s;
+}
+.btn-head:hover{
+    background-color: #000;
 }
