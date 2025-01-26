@@ -10,7 +10,7 @@ body{
     background-color: slategray;
 }
 .header{
-    height: 75px;
+    height: 70px;
 }
 .header img{
     width: 180px;
@@ -65,4 +65,35 @@ li{
 }
 .item-nav li:hover >.submenu li{
     display: inline-block;
+}
+#header-top{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-color: #000;
+}
+
+#header-top::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    background: url(/img/featured.jpg) no-repeat center center;
+    background-size: cover; 
+    height: 500px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+}  
+.header-container{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    align-items:center;
+    height:100%; 
+}
+.header-content{
+    position: relative;
+    z-index: 1; 
+    color: #fff; 
+    padding: 2rem;
 }
