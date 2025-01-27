@@ -119,3 +119,54 @@ li{
     background-color: #000;
     padding-right: 5px;
 }
+
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+.box-article{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.box-article>img{
+    width: 100%;
+    border-radius: 10px;
+}
+.sport-category{
+    color: #fff;
+}
+.ent-sport{
+    display: inline-block;
+    padding:10px;
+    background-color:purple;
+    border-radius: 15px;
+}
+.spo-sport{
+    display: inline-block;
+    padding:10px;
+    background-color:#FFB300;
+    border-radius: 15px;
+}
+.tech-sport{
+    display: inline-block;
+    padding:10px;
+    background-color:#14e9e9;
+    border-radius: 15px;
+}
+.box-article:first-child{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column: 1/span 2;
+    gap: 1rem;
+    align-items: center;
+}
+.box-article:last-child{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column: 2/span 2;
+    gap: 1rem;
+    align-items: center;
+}
