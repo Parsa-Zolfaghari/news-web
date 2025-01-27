@@ -117,4 +117,5 @@ li{
 }
 .btn-head:hover{
     background-color: #000;
+    padding-right: 5px;
 }
