@@ -36,9 +36,6 @@ li{
     padding: 10px 20px;
     transition-duration: 1s;
 }
-.ul-headerlist li a:hover{
-    background-color: #5f5c5c;
-}
 .ul-headerlist li:hover{
      background-color: #5f5c5c;
 }
@@ -81,6 +78,7 @@ li{
     position: absolute;
     z-index: 0;
     background: url(/img/featured.jpg) no-repeat center center;
+    background-attachment: fixed;
     background-size: cover; 
     height: 500px;
     width: 100%;
