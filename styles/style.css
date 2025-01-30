@@ -262,3 +262,66 @@ input[type="button"] :hover{
     font-size: 0.8rem;
     width: 100%;
 }
+         /* added article page styles */
+#page-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+#page-container *:first-child{
+    grid-row: 1/span 3;
+}
+.page-content{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.panel-right{
+    background-color: #fff;
+}
+.img-page-container{
+    width: 100%;
+    border-radius: 10px;
+}
+.meta{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-article{
+    width: 135px;
+}
+.span-article{
+    padding-top: 7px;
+}
+.panel-right{
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.list-panel-right>li>a{
+    display: block;
+    width: 100%;
+    padding:10px 0;
+    text-decoration: none;
+    text-align: left;
+    color: #000;
+    border-bottom: 1px solid;
+}
+.list-panel-right{
+    padding: 0;
+}
+.join{
+    background-color: #FFB300;
+}
+.btn-join{
+    background-color: #000;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
