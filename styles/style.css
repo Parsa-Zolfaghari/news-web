@@ -338,3 +338,9 @@ input[type="button"] :hover{
     text-decoration: none;
     color: #fff;
 }
+.about{
+    background-color: red;
+}
+.about p{
+    color: #fff;
+}
