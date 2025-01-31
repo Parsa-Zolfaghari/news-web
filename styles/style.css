@@ -317,7 +317,12 @@ input[type="button"] :hover{
     text-decoration: none;
     text-align: left;
     color: #000;
+}
+.list-panel-right >li{
     border-bottom: 1px solid;
+}
+.list-panel-right >li:last-child{
+    border-bottom: none;
 }
 .list-panel-right{
     padding: 0;
